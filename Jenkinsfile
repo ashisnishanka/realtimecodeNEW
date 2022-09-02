@@ -34,7 +34,7 @@ pipeline{
                 steps{
                     echo "code review is succesfully"
 					sh 'mvn test'
-                }
+                
                 }
                 
             }
