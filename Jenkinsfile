@@ -9,7 +9,7 @@
 	  
 	  stage("checkout"){
 	   steps{
-	   git 'https://github.com/ashisnishanka/gitrealtime.git'
+	   git 'https://github.com/ashisnishanka/realtimecodeNEW.git'
 	   }
 	                  }
 	
