@@ -9,7 +9,7 @@
 	  
 	  stage("checkout"){
 	   steps{
-	   git 'https://github.com/ashisnishanka/realtimecodeNEW.git'
+	   git credentialsId: 'mygithub', url: 'https://github.com/ashisnishanka/realtimecodeNEW.git'
 	   }
 	                  }
 	
