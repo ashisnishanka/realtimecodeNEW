@@ -11,7 +11,7 @@ pipeline
    {
      steps
 	 { 
-	   echo "my git hub code "	
+	   echo "my git hub code1 "	
 	   git credentialsId: 'mygitpassword', url: 'https://github.com/ashisnishanka/realtimecodeNEW.git'
 	 }   
    }
